@@ -8,7 +8,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.topografix.com/GPX/Private/TopoGrafix/0/1 http://www.topografix.com/GPX/Private/TopoGrafix/0/1/topografix.xsd">
 <metadata>
 <name><![CDATA[BoyanskiVodopad201505011156_go.gpx]]></name>
-<desc><![CDATA[BoyanskiVodopad201505011156_go.gpx]]></desc>
+<desc><![CDATA[BoyanskiVodopad_go.gpx desc desc]]></desc>
+<author>
+    <name> Vlado Vladov </name>
+    <email> vlado@vlado.bg </email>
+    <link> linkType </link>
+</author>
 </metadata>
 <wpt lat="42.637125" lon="23.263861">
 <ele>1103.4</ele>
@@ -21,14 +26,15 @@ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/
 <wpt lat="42.637113" lon="23.263821">
 <ele>1102.8</ele>
 <time>2015-05-01T12:39:52.118Z</time>
-<name><![CDATA[Полянка за почивка]]></name>
+<name><![CDATA[Polyanka za pochvka]]></name>
 <cmt><![CDATA[WAYPOINT]]></cmt>
 <desc><![CDATA[]]></desc>
-<type><![CDATA[полянка]]></type>
+<type><![CDATA[polyanka]]></type>
 </wpt>
+
 <trk>
-<name><![CDATA[Боянски Водопад 201505011156]]></name>
-<desc><![CDATA[Боянски водопад]]></desc>
+<name><![CDATA[Razhodka do boyanskiya vodopad 201505011156]]></name>
+<desc><![CDATA[Maker za hodene]]></desc>
 <type><![CDATA[walking]]></type>
 <extensions><topografix:color>c0c0c0</topografix:color></extensions>
 <trkseg>
