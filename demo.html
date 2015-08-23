@@ -2,16 +2,24 @@
 <html>
 <head>
     <title>Test Page</title>
+    <style type="text/css">
+        pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; }
+        .string { color: green; }
+        .number { color: darkorange; }
+        .boolean { color: blue; }
+        .null { color: magenta; }
+        .key { color: red; }
+    </style>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/application.js"></script>
 </head>
 <body>
     <p>
-        <input type="file" id="files" name="file" /><button class="parse_files">Parse</button>
+        <input type="text" size="60" id="file-url" name="file-url" value="http://127.0.0.1:8000/tracks/BoyanskiVodopad201505011156_go.gpx" />&nbsp;&nbsp;&nbsp;<button class="parse-remote-file">Parse</button>
     </p>
     <p>
-        <div id="byte_range"></div>
-        <div id="byte_content"></div>
+        <input type="file" id="files" name="file" /><button class="parse-local-files">Parse</button>
     </p>
+    <p id="file-info"></p>
 </body>
 </html>
