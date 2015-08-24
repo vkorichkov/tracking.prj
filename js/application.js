@@ -233,10 +233,10 @@
     if ((fileSizeInBytes || 0) > (6 * 1024 * 1024)) { // if larger then 6 mb
       $('#debug-gpx-logger').html('<pre>' + tracksAsJson + '</pre>');
     } else {
-      //$('#debug-gpx-logger').html('<pre>' + this.syntaxHighlight(tracksAsJson) + '</pre>');
+      $('#debug-gpx-logger').html('<pre>' + this.syntaxHighlight(tracksAsJson) + '</pre>');
     }
 
-    $('#debug-gpx-logger').html('<pre>' + tracksAsJson + '</pre>');
+    // $('#debug-gpx-logger').html('<pre>' + tracksAsJson + '</pre>');
 
     console.log(json);
   };
