@@ -227,8 +227,8 @@
 
     json = this.__gpxJsonMinify(json); // TODO
 
-    //var tracksAsJson = JSON.stringify(json, undefined, 2);
-    var tracksAsJson = JSON.stringify(json);
+    var tracksAsJson = JSON.stringify(json, undefined, 2);
+    //var tracksAsJson = JSON.stringify(json);
 
     if ((fileSizeInBytes || 0) > (6 * 1024 * 1024)) { // if larger then 6 mb
       $('#debug-gpx-logger').html('<pre>' + tracksAsJson + '</pre>');
